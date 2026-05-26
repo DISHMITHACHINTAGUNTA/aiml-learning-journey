@@ -1,0 +1,11 @@
+print("weclome to madlibs game")
+adjective1=input("enter an adjective (description):")
+noun1=input("enter a noun (person ,place, thing):")
+verb1=input("enter a verb ending with ing or ious:")
+adjective2=input("enter an adjective (description):")
+
+print("i was waiting for my ",adjective1,"friend")
+print("he's mode was like ",verb1,"out of curiosity i had grilled him about the tea")
+print("he said he saw some ",noun1,"doing weird things in public")
+print("i've queried him those and he said what he saw")
+print("after that i was",adjective2,"and at the same time taking off his",adjective2)
