@@ -48,13 +48,13 @@
 # r=s.replace(l[0],cha)
 # print(r)
 
-st=input()
-vo='aeiou'
-r=''
-for i in st:
-    if i in vo:
-        ch=(vo.index(i)+1)%len(vo)
-        r=r+vo[ch]
+text=input("enter any series name :")
+vowels='aeiou'
+result=''
+for i in text:
+    if i in vowels:
+        ch=(vowels.index(i)+1)%len(vowels)
+        result=result+vowels[ch]
     else:
-        r=r+i
-print(r)
+        result=result+i
+print(result)
